@@ -1,5 +1,7 @@
 # medgram
 This is an ongoing project, and you can contribute. Fork, clone locally, contribute, then initiate a pull request!
+This project was built with Turbo 360. To learn more, click here: https://www.turbo360.co
+
 
 ## Instructions
 After cloning into repo, cd to project root directory and install dependencies:
