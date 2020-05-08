@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medigram</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+</head>
+<body>
+     <div class="container">
+        <h1>{{graphql.user.full_name}}</h1>
+         <div class="row">
+
+         {{#graphql.user.media.node}}
+            <div class="col-md-4">
+            <img src="{{thumbnail_src}}" />
+             </div>
+         {{/graphql.user.media.node}} 
+
+         </div>
+     </div>    
+</body>
+</html>
